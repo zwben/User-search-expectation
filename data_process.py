@@ -18,7 +18,7 @@ from statsmodels.stats.multitest import multipletests
 
 # 2. Data Loading and Preprocessing
 def load_and_preprocess_data():
-    os.chdir(r'H:\\OneDrive - University of Oklahoma\\IR project\\user study\\data')
+    os.chdir('data_path')
     
     df_task = pd.read_csv('df_task.csv')
     df_query_act = pd.read_csv('df_query_act.csv')
